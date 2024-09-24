@@ -1,6 +1,8 @@
 # Local RAG From Scratch
 
-LLMs are typically trained on a large but fixed corpus of data, limiting their ability to reason about private or recent information. Fine-tuning can mitigate this to some extent but is often [not well-suited for factual recall](https://www.anyscale.com/blog/fine-tuning-is-for-form-not-facts) and [can be costly](https://www.glean.com/blog/how-to-build-an-ai-assistant-for-the-enterprise).
+LLMs are typically trained on a large but fixed corpus of data, limiting their ability to reason about private or recent information. **Fine-tuning **can mitigate this to some extent but is often [not well-suited for factual recall](https://www.anyscale.com/blog/fine-tuning-is-for-form-not-facts) and [can be costly](https://www.glean.com/blog/how-to-build-an-ai-assistant-for-the-enterprise).
+
+![rag_detail_v2](https://github.com/langchain-ai/rag-from-scratch/assets/122662504/54a2d76c-b07e-49e7-b4ce-fc45667360a1)
 
 Retrieval-Augmented Generation (RAG) has emerged as a popular and powerful mechanism to expand an LLM's knowledge base. This technique uses documents retrieved from an external or local data source to ground the LLM's generation via in-context learning, providing relevant and up-to-date information.
 
