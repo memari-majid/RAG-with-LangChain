@@ -1,4 +1,4 @@
-# RAG From Scratch (Local Setup with LLaMA 3.1 and Ollama)
+# LangChain RAG From Scratch (Local Setup with LLaMA 3.1 and Ollama)
 
 LLMs are typically trained on a large but fixed corpus of data, limiting their ability to reason about private or recent information. Fine-tuning can mitigate this to some extent but is often [not well-suited for factual recall](https://www.anyscale.com/blog/fine-tuning-is-for-form-not-facts) and [can be costly](https://www.glean.com/blog/how-to-build-an-ai-assistant-for-the-enterprise).
 
