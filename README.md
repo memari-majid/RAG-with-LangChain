@@ -8,8 +8,17 @@ In this repository, we demonstrate how to build a fully **local RAG system** fro
 
 ## Key Components of the Local RAG Setup:
 
-- **Local Language Model**: Using **Ollama**, we load and run **llama models** **locally**. These models provide high-quality language generation without the need for **API** calls or **cloud-based **services.
+- **Local Language Model**: Using **Ollama**, we load and run **llama models** **locally**. These models provide high-quality language generation without the need for **API** calls or **cloud-based services**.
   
 - **Local Embeddings**: We use **Hugging Face**'s `sentence-transformers` to generate document **embeddings**. These embeddings are calculated **locally**, ensuring no data leaves your machine.
   
 - **Local Retrieval (FAISS)**: For retrieval, we utilize Facebook AI Similarity Search (**FAISS**), a high-performance **vector** store that enables **fast** and **efficient** similarity searches. This ensures that relevant documents are retrieved quickly, supporting the **llama** model in producing grounded responses.
+
+## Tutorial: Local RAG with LangChain on Google Colab
+
+We have prepared a step-by-step tutorial to guide you through the process of building a Local RAG system using LangChain and Ollama on Google Colab. This tutorial will help you understand how to set up local language models, embeddings, and FAISS for retrieval-augmented generation.
+
+### Click the button below to open the tutorial in Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GByk7ACuxQncfIcVpZAnOzhP7nU6JWwq)
+
