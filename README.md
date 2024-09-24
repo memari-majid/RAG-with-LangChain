@@ -13,12 +13,3 @@ In this repository, we demonstrate how to build a fully **local RAG system** fro
 - **Local Embeddings**: We use **Hugging Face**'s `sentence-transformers` to generate document **embeddings**. These embeddings are calculated **locally**, ensuring no data leaves your machine.
   
 - **Local Retrieval (FAISS)**: For retrieval, we utilize Facebook AI Similarity Search (**FAISS**), a high-performance **vector** store that enables **fast** and **efficient** similarity searches. This ensures that relevant documents are retrieved quickly, supporting the **llama** model in producing grounded responses.
-
-## Running the Project Locally
-
-1. **Install Ollama**: Follow the installation instructions on the [Ollama website](https://ollama.com/) to set up the tool locally.
-
-2. **Pull a LLaMA 3.1 Model**: Once Ollama is installed, you can download any version of the LLaMA 3.1 models locally.
-    ```bash
-    ollama pull llama3.1
-    ```
