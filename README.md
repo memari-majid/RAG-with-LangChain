@@ -20,5 +20,15 @@ We have prepared a step-by-step tutorial to guide you through the process of bui
 
 ### Click the button below to open the tutorial in Google Colab:
 
+### Local RAG with CPU
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GByk7ACuxQncfIcVpZAnOzhP7nU6JWwq)
+
+This tutorial walks you through setting up a **local RAG pipeline** with LangChain using CPU-based computation. It's a great starting point for users without access to a GPU.
+
+### Local RAG with GPU
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MO4YLQ3kkA5_eSyzgRz4wlPq2LFeobaV)
+
+This tutorial is for those who want to accelerate their local RAG pipeline using **GPU**. It includes GPU-based Hugging Face embeddings and FAISS for faster vector similarity searches.
 
