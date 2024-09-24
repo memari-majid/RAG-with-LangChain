@@ -18,7 +18,8 @@ In this repository, we demonstrate how to build a fully **local RAG system** fro
 
 1. **Install Ollama**: Follow the installation instructions on the [Ollama website](https://ollama.com/) to set up the tool locally.
 
-2. **Pull a LLaMA 3.1 Model**: Once Ollama is installed, you can download any version of the LLaMA 3.1 models locally. For example:
-   ```bash
-   ollama pull llama3.1-8b
-    ```
+2. **Pull a LLaMA 3.1 Model**: Once Ollama is installed, you can download any version of the LLaMA 3.1 models locally. 
+For example:
+```bash
+ollama pull llama3.1
+```
