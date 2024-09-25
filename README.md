@@ -2,33 +2,30 @@
 
 ![rag_detail_v2](https://github.com/langchain-ai/rag-from-scratch/assets/122662504/54a2d76c-b07e-49e7-b4ce-fc45667360a1)
 
-Retrieval-Augmented Generation (RAG) has become a powerful technique for expanding the knowledge base of a Language Learning Model (LLM). This approach uses documents retrieved from local or external sources to provide grounded, relevant, and up-to-date information, which enhances the LLM's generation through in-context learning.
+Retrieval-Augmented Generation (RAG) has emerged as a robust technique for enhancing the knowledge base of Language Learning Models (LLMs). By retrieving documents from local or external sources, RAG enables models to provide relevant, up-to-date, and grounded responses through in-context learning.
 
-This repository demonstrates how to build a fully **local RAG system** from scratch using **Ollama**. The emphasis here is on ensuring **privacy** and **performance**, as the entire process is run locally, without the need for external cloud services.
+This repository showcases how to build a fully **local RAG system** from scratch using **Ollama** and **LangChain**. Our focus is on **privacy** and **performance**, as all components—language models, embeddings, and retrieval—are processed locally, eliminating reliance on external cloud services.
 
 ## Key Components of the Local RAG Setup
 
-- **Local Language Model**: We use **Ollama** to run **llama models** entirely on your local machine. This eliminates the need for **API** calls or **cloud-based services**, ensuring privacy while delivering high-quality language generation.
+- **Local Language Model**: Utilizing **Ollama**, we run **llama models** locally on your machine. This setup avoids API calls and cloud services, keeping your data private while providing high-quality language generation.
   
-- **Local Embeddings**: Using **Hugging Face**'s `sentence-transformers`, we generate document **embeddings** locally. This ensures that no data leaves your machine and all processing stays within your control.
+- **Local Embeddings**: We generate document **embeddings** using **Hugging Face's** `sentence-transformers`, all performed locally, ensuring that your data never leaves your environment.
 
-- **Local Retrieval (FAISS)**: For fast and efficient document retrieval, we utilize **Facebook AI Similarity Search (FAISS)**. FAISS is a high-performance vector store that performs similarity searches, ensuring that relevant documents are retrieved quickly to support grounded responses by the **llama** model.
+- **Local Retrieval (FAISS)**: To retrieve relevant documents, we employ **Facebook AI Similarity Search (FAISS)**, a high-performance vector store that facilitates efficient similarity searches. This ensures the retrieved documents are used to ground the llama model's responses.
 
-## Tutorial: Local RAG with LangChain on Google Colab
+## Local RAG with LangChain on Google Colab
 
-We have prepared several Google Colab tutorials to guide you through the process of building a Local RAG system using **LangChain** and **Ollama**. These tutorials cover both CPU and GPU setups, allowing you to adapt to the resources available on your local machine.
-
+We offer a series of Google Colab tutorials that walk you through building a Local RAG system with **LangChain** and **Ollama**. These tutorials cater to both CPU and GPU setups, allowing you to leverage the resources available on your machine.
 
 ### Google Colab Tutorials:
 
-- **Simple Local RAG with CPU**: [Open in Colab](https://colab.research.google.com/drive/1-Hq9l2E7tWwOt6WfkaISMMnI1o7MIaRg)
+- **Simple Local RAG with CPU**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-Hq9l2E7tWwOt6WfkaISMMnI1o7MIaRg)
   
-- **In-depth Local RAG with CPU**: [Open in Colab](https://colab.research.google.com/drive/1rPIPrH0m9b4tQzzqJ9ZjuZfaNpnfWnnR)
+- **In-depth Local RAG with CPU**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rPIPrH0m9b4tQzzqJ9ZjuZfaNpnfWnnR)
 
-- **Simple Local RAG with GPU and Large Memory**: [Open in Colab](https://colab.research.google.com/drive/1MO4YLQ3kkA5_eSyzgRz4wlPq2LFeobaV)
+- **Simple Local RAG with GPU and Large Memory**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MO4YLQ3kkA5_eSyzgRz4wlPq2LFeobaV)
 
-- **LangChain Agents**: [Open in Colab](https://colab.research.google.com/drive/1-mFnpOJjxErMm-yht625CmjayqsEFjo4)
+- **LangChain Agents**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-mFnpOJjxErMm-yht625CmjayqsEFjo4)
 
-- **Advanced RAG with Capability to Read Different File Types and Databases**: [Open in Colab](https://colab.research.google.com/drive/1fVNBMgjf6yQX0qpGTd2RF6HR-agjoppN)
-
-
+- **Advanced RAG with Capability to Read Different File Types and Databases**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fVNBMgjf6yQX0qpGTd2RF6HR-agjoppN)
