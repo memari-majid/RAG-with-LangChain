@@ -26,6 +26,6 @@ We offer a series of Google Colab tutorials that walk you through building a Loc
 
 - **Simple Local RAG with GPU and Large Memory**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MO4YLQ3kkA5_eSyzgRz4wlPq2LFeobaV)
 
-- **LangChain Agents**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-mFnpOJjxErMm-yht625CmjayqsEFjo4)
+- **Intelligent Agents**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-mFnpOJjxErMm-yht625CmjayqsEFjo4)
 
-- **Advanced RAG with Capability to Read Different File Types and Databases**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fVNBMgjf6yQX0qpGTd2RF6HR-agjoppN)
+- **Knowledge Base Agent**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fVNBMgjf6yQX0qpGTd2RF6HR-agjoppN)
