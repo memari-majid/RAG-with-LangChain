@@ -1,4 +1,4 @@
-# Local RAG From Scratch
+# Local RAG with LangChain Tutorial
 
 ![rag_detail_v2](https://github.com/langchain-ai/rag-from-scratch/assets/122662504/54a2d76c-b07e-49e7-b4ce-fc45667360a1)
 
@@ -18,21 +18,8 @@ This repository demonstrates how to build a fully **local RAG system** from scra
 
 We have prepared several Google Colab tutorials to guide you through the process of building a Local RAG system using **LangChain** and **Ollama**. These tutorials cover both CPU and GPU setups, allowing you to adapt to the resources available on your local machine.
 
-### Click the button below to open the tutorial in Google Colab:
 
-### Local RAG with CPU
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GByk7ACuxQncfIcVpZAnOzhP7nU6JWwq)
-
-This tutorial provides a step-by-step guide for setting up a **local RAG pipeline** using CPU-based computation. It's ideal for users who don’t have access to GPU resources.
-
-### Local RAG with GPU
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MO4YLQ3kkA5_eSyzgRz4wlPq2LFeobaV)
-
-This tutorial demonstrates how to accelerate your **local RAG pipeline** using **GPU** resources. It includes the use of GPU-based Hugging Face embeddings and FAISS for faster vector similarity searches.
-
-### Additional Google Colab Tutorials:
+### Google Colab Tutorials:
 
 - **Simple Local RAG with CPU**: [Open in Colab](https://colab.research.google.com/drive/1-Hq9l2E7tWwOt6WfkaISMMnI1o7MIaRg)
   
