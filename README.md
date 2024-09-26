@@ -20,12 +20,7 @@ We offer a series of Google Colab tutorials that walk you through building a Loc
 
 ### Google Colab Tutorials:
 
-- **Simple Local RAG with CPU**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-Hq9l2E7tWwOt6WfkaISMMnI1o7MIaRg)
-  
-- **In-depth Local RAG with CPU**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rPIPrH0m9b4tQzzqJ9ZjuZfaNpnfWnnR)
+I have shared the folder containing my Google Colab notebooks:
 
-- **Simple Local RAG with GPU and Large Memory**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MO4YLQ3kkA5_eSyzgRz4wlPq2LFeobaV)
+[Google Colab Notebooks Folder](https://drive.google.com/drive/folders/16jfiLFQL8_yjZf29Au8LPCyc7yXe0C4w?usp=sharing)
 
-- **Intelligent Agents**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-mFnpOJjxErMm-yht625CmjayqsEFjo4)
-
-- **Knowledge Base Agent**: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fVNBMgjf6yQX0qpGTd2RF6HR-agjoppN)
